@@ -5,12 +5,90 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MiiCreator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="723.939">
+        Title="MiiMaker" Height="350" Width="800" WindowStyle="ThreeDBorderWindow">
     <StackPanel Orientation="Horizontal">
-        <Button Click="Button_Click" Margin="0,274,0,0" Width="46">Test1</Button>
-        <Button Click="Button_Click_1" Margin="0,274,0,0" Width="46">Test2</Button>
-        <Button Click="Button_Click_2" Margin="0,274,0,0" Width="46">Test3</Button>
-        <Button Click="Button_Click_3" Margin="0,274,0,0" Width="47">Test4</Button>
+        <Menu x:Name="menu3" Width="216" Height="320" VerticalAlignment="Top">
+            <Button Click="Button_Click" Width="75" Content="Red Ear" Height="46">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                        <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                        <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                        <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                        <GradientStop Color="#FFF01414" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Click="Button_Click_1" Width="75" Content="Blue Ear" Height="46">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                        <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                        <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                        <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                        <GradientStop Color="#FF2090FF" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Click="Button_Click_1" Width="75" Content="Blue Nose" Height="46">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                        <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                        <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                        <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                        <GradientStop Color="#FF2090FF" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Click="Button_Click_2" Width="75" Content="White Nose" Height="46">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                        <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                        <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                        <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Click="Button_Click_3" Width="75" Content="Green eye" Height="46">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                        <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                        <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                        <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                        <GradientStop Color="#FF40EA0E" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Click="Button_Click_2" Width="75" Content="White Eye" Height="46">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                        <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                        <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                        <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Click="Button_Click" Width="75" Content="Red Head" Height="46">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                        <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                        <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                        <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                        <GradientStop Color="#FFF01414" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Click="Button_Click_1" Width="75" Content="Blue Head" Height="46">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                        <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                        <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                        <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                        <GradientStop Color="#FF2090FF" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+        </Menu>
         <Canvas Width="300" Background="BurlyWood">
             <Ellipse x:Name="Face" Height="189" Width="177" Canvas.Top="27" Canvas.Left="38" Fill="Firebrick" RenderTransform="{Binding Value, ElementName=FaceCanvas}"/>
             <Ellipse x:Name="LeftEye" Fill="#FFF4F4F5" Height="30" Canvas.Left="{Binding Value, ElementName=LeftEyeSlider}" Stroke="Black" Canvas.Top="90" Width="55" RenderTransformOrigin="0.5,0.5">
@@ -64,5 +142,6 @@
             <Slider x:Name="MouthSlider" Width="90"/>
             <Slider x:Name="EarsSlider" Maximum="100" Minimum="30" Width="90"/>
         </Menu>
+        <Menu x:Name="menu1" Width="100"/>
     </StackPanel>
 </Window>

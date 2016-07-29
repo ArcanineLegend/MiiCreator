@@ -27,10 +27,10 @@ namespace MiiCreator
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Ellipse myEllipse = new Ellipse();
-            myEllipse.Width = 500;
-            myEllipse.Height = 10;
-            myEllipse.Fill = Brushes.Blue;
+            
+            LeftEar.Fill = new SolidColorBrush(Colors.Red);
+            //LeftEar.Stroke = "FireBrick";
+
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
