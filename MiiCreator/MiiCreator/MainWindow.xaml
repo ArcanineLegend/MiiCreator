@@ -88,9 +88,13 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
+            <Button x:Name="Rectangle_Mouth" Content="Rectangle Mouth" VerticalAlignment="Top" Width="166" Click="Rectangle_Mouth_Click"/>
+            <Button x:Name="Rectangle_Nose" Content="Rectangle Nose" VerticalAlignment="Top" Width="166"/>
+            <Button x:Name="Rectangle_Eyes" Content="Rectangle Eyes" VerticalAlignment="Top" Width="166"/>
+            <Button x:Name="Rectangle_Ears" Content="Rectangle Ears" VerticalAlignment="Top" Width="166"/>
         </Menu>
         <Canvas Width="300" Background="BurlyWood">
-            <Ellipse x:Name="Face" Height="189" Width="177" Canvas.Top="27" Canvas.Left="38" Fill="Firebrick" RenderTransform="{Binding Value, ElementName=FaceCanvas}"/>
+            <Ellipse x:Name="Face" Height="{Binding Value, ElementName=FaceCanvas}" Width="177" Canvas.Top="27" Canvas.Left="38" Fill="Firebrick" RenderTransform="{Binding Value, ElementName=FaceCanvas}" MouseDown="Face_MouseDown"/>
             <Ellipse x:Name="LeftEye" Fill="#FFF4F4F5" Height="30" Canvas.Left="{Binding Value, ElementName=LeftEyeSlider}" Stroke="Black" Canvas.Top="90" Width="55" RenderTransformOrigin="0.5,0.5">
                 <Ellipse.RenderTransform>
                     <TransformGroup>
@@ -112,7 +116,7 @@
                 </Ellipse.RenderTransform>
             </Ellipse>
             <Ellipse x:Name="Mouth" Fill="Black" Height="29" Canvas.Left="76" Canvas.Top="150" Width="100"/>
-            <Ellipse x:Name="Nose" Fill="Black" Height="33" Canvas.Left="107" Canvas.Top="114" Width="33" RenderTransformOrigin="0.5,0.5">
+            <Ellipse x:Name="Nose" Fill="Black" Height="33" Canvas.Left="107" Canvas.Top="{Binding Value, ElementName=NoseSlider}" Width="33" RenderTransformOrigin="0.5,0.5">
                 <Ellipse.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -122,8 +126,8 @@
                     </TransformGroup>
                 </Ellipse.RenderTransform>
             </Ellipse>
-            <Ellipse x:Name="LeftEar" Fill="{Binding BorderBrush, ElementName=Red_Ear}" Height="{Binding Value, ElementName=EarsSlider}" Canvas.Top="79" Width="26" Canvas.Left="23"/>
-            <Ellipse x:Name="RightEar" Fill="{Binding BorderBrush, ElementName=Red_Ear}" Height="{Binding Value, ElementName=EarsSlider}" Canvas.Left="198" Canvas.Top="79" Width="29"/>
+            <Ellipse x:Name="LeftEar" Fill="{Binding BorderBrush, ElementName=Red_Ear}" Height="{Binding Value, ElementName=EarsSlider}" Canvas.Top="{Binding Value, ElementName=EarTopSlider}" Width="26" Canvas.Left="23"/>
+            <Ellipse x:Name="RightEar" Fill="{Binding BorderBrush, ElementName=Red_Ear}" Height="{Binding Value, ElementName=EarsSlider}" Canvas.Left="198" Canvas.Top="{Binding Value, ElementName=EarTopSlider}" Width="29"/>
             <TextBox x:Name="NameBox" Height="23" Canvas.Left="38" TextWrapping="Wrap" Canvas.Top="259" Width="120"/>
             <Label x:Name="NameLabel" Content="Name?" Canvas.Left="38" Canvas.Top="233" RenderTransformOrigin="-0.293,-0.182"/>
         </Canvas>
@@ -135,11 +139,11 @@
             <Label x:Name="label5" Content="Ears"/>
         </StackPanel>
         <Menu x:Name="menu" Width="100">
-            <Slider x:Name="FaceCanvas" Minimum="20" Maximum="100" Height="22" Width="90"/>
+            <Slider x:Name="FaceCanvas" Minimum="165" Maximum="180" Height="22" Width="90"/>
             <Slider x:Name="LeftEyeSlider" Maximum="60" Minimum="50" Width="90"/>
             <Slider x:Name="RightEyeSlider" Maximum="135" Minimum="125" Width="90"/>
-            <Slider x:Name="NoseSlider" Width="90"/>
-            <Slider x:Name="MouthSlider" Width="90"/>
+            <Slider x:Name="NoseSlider" Width="90" ValueChanged="NoseSlider_ValueChanged" Maximum="116" Minimum="112"/>
+            <Slider x:Name="EarTopSlider" Width="90" Maximum="90" Minimum="80"/>
             <Slider x:Name="EarsSlider" Maximum="100" Minimum="30" Width="90"/>
         </Menu>
         <Menu x:Name="menu1" Width="100"/>
