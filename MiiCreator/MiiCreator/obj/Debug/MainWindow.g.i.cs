@@ -65,9 +65,25 @@ namespace MiiCreator {
         #line hidden
         
         
+        #line 91 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button Rectangle_Mouth;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 92 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button Rectangle_Nose;
+        
+        #line default
+        #line hidden
+        
+        
         #line 93 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Shapes.Ellipse Face;
+        internal System.Windows.Controls.Button Rectangle_Eyes;
         
         #line default
         #line hidden
@@ -75,13 +91,29 @@ namespace MiiCreator {
         
         #line 94 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button Rectangle_Ears;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 97 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Shapes.Ellipse Face;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 98 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Ellipse LeftEye;
         
         #line default
         #line hidden
         
         
-        #line 104 "..\..\MainWindow.xaml"
+        #line 108 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Ellipse RightEye;
         
@@ -89,7 +121,7 @@ namespace MiiCreator {
         #line hidden
         
         
-        #line 114 "..\..\MainWindow.xaml"
+        #line 118 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Ellipse Mouth;
         
@@ -97,7 +129,7 @@ namespace MiiCreator {
         #line hidden
         
         
-        #line 115 "..\..\MainWindow.xaml"
+        #line 119 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Ellipse Nose;
         
@@ -105,7 +137,7 @@ namespace MiiCreator {
         #line hidden
         
         
-        #line 125 "..\..\MainWindow.xaml"
+        #line 129 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Ellipse LeftEar;
         
@@ -113,7 +145,7 @@ namespace MiiCreator {
         #line hidden
         
         
-        #line 126 "..\..\MainWindow.xaml"
+        #line 130 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Ellipse RightEar;
         
@@ -121,7 +153,7 @@ namespace MiiCreator {
         #line hidden
         
         
-        #line 127 "..\..\MainWindow.xaml"
+        #line 131 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox NameBox;
         
@@ -129,7 +161,7 @@ namespace MiiCreator {
         #line hidden
         
         
-        #line 128 "..\..\MainWindow.xaml"
+        #line 132 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label NameLabel;
         
@@ -137,7 +169,7 @@ namespace MiiCreator {
         #line hidden
         
         
-        #line 131 "..\..\MainWindow.xaml"
+        #line 135 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label label;
         
@@ -145,7 +177,7 @@ namespace MiiCreator {
         #line hidden
         
         
-        #line 132 "..\..\MainWindow.xaml"
+        #line 136 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label label1;
         
@@ -153,7 +185,7 @@ namespace MiiCreator {
         #line hidden
         
         
-        #line 133 "..\..\MainWindow.xaml"
+        #line 137 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label label2;
         
@@ -161,7 +193,7 @@ namespace MiiCreator {
         #line hidden
         
         
-        #line 134 "..\..\MainWindow.xaml"
+        #line 138 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label label3;
         
@@ -169,7 +201,7 @@ namespace MiiCreator {
         #line hidden
         
         
-        #line 135 "..\..\MainWindow.xaml"
+        #line 139 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label label5;
         
@@ -177,7 +209,7 @@ namespace MiiCreator {
         #line hidden
         
         
-        #line 137 "..\..\MainWindow.xaml"
+        #line 141 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Menu menu;
         
@@ -185,7 +217,7 @@ namespace MiiCreator {
         #line hidden
         
         
-        #line 138 "..\..\MainWindow.xaml"
+        #line 142 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Slider FaceCanvas;
         
@@ -193,7 +225,7 @@ namespace MiiCreator {
         #line hidden
         
         
-        #line 139 "..\..\MainWindow.xaml"
+        #line 143 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Slider LeftEyeSlider;
         
@@ -201,7 +233,7 @@ namespace MiiCreator {
         #line hidden
         
         
-        #line 140 "..\..\MainWindow.xaml"
+        #line 144 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Slider RightEyeSlider;
         
@@ -209,7 +241,7 @@ namespace MiiCreator {
         #line hidden
         
         
-        #line 141 "..\..\MainWindow.xaml"
+        #line 145 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Slider NoseSlider;
         
@@ -217,7 +249,7 @@ namespace MiiCreator {
         #line hidden
         
         
-        #line 142 "..\..\MainWindow.xaml"
+        #line 146 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Slider MouthSlider;
         
@@ -225,7 +257,7 @@ namespace MiiCreator {
         #line hidden
         
         
-        #line 143 "..\..\MainWindow.xaml"
+        #line 147 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Slider EarsSlider;
         
@@ -233,7 +265,7 @@ namespace MiiCreator {
         #line hidden
         
         
-        #line 145 "..\..\MainWindow.xaml"
+        #line 149 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Menu menu1;
         
@@ -342,69 +374,93 @@ namespace MiiCreator {
             #line hidden
             return;
             case 11:
-            this.Face = ((System.Windows.Shapes.Ellipse)(target));
+            this.Rectangle_Mouth = ((System.Windows.Controls.Button)(target));
+            
+            #line 91 "..\..\MainWindow.xaml"
+            this.Rectangle_Mouth.Click += new System.Windows.RoutedEventHandler(this.Rectangle_Mouth_Click);
+            
+            #line default
+            #line hidden
             return;
             case 12:
-            this.LeftEye = ((System.Windows.Shapes.Ellipse)(target));
+            this.Rectangle_Nose = ((System.Windows.Controls.Button)(target));
             return;
             case 13:
-            this.RightEye = ((System.Windows.Shapes.Ellipse)(target));
+            this.Rectangle_Eyes = ((System.Windows.Controls.Button)(target));
             return;
             case 14:
-            this.Mouth = ((System.Windows.Shapes.Ellipse)(target));
+            this.Rectangle_Ears = ((System.Windows.Controls.Button)(target));
             return;
             case 15:
-            this.Nose = ((System.Windows.Shapes.Ellipse)(target));
+            this.Face = ((System.Windows.Shapes.Ellipse)(target));
+            
+            #line 97 "..\..\MainWindow.xaml"
+            this.Face.MouseDown += new System.Windows.Input.MouseButtonEventHandler(this.Face_MouseDown);
+            
+            #line default
+            #line hidden
             return;
             case 16:
-            this.LeftEar = ((System.Windows.Shapes.Ellipse)(target));
+            this.LeftEye = ((System.Windows.Shapes.Ellipse)(target));
             return;
             case 17:
-            this.RightEar = ((System.Windows.Shapes.Ellipse)(target));
+            this.RightEye = ((System.Windows.Shapes.Ellipse)(target));
             return;
             case 18:
-            this.NameBox = ((System.Windows.Controls.TextBox)(target));
+            this.Mouth = ((System.Windows.Shapes.Ellipse)(target));
             return;
             case 19:
-            this.NameLabel = ((System.Windows.Controls.Label)(target));
+            this.Nose = ((System.Windows.Shapes.Ellipse)(target));
             return;
             case 20:
-            this.label = ((System.Windows.Controls.Label)(target));
+            this.LeftEar = ((System.Windows.Shapes.Ellipse)(target));
             return;
             case 21:
-            this.label1 = ((System.Windows.Controls.Label)(target));
+            this.RightEar = ((System.Windows.Shapes.Ellipse)(target));
             return;
             case 22:
-            this.label2 = ((System.Windows.Controls.Label)(target));
+            this.NameBox = ((System.Windows.Controls.TextBox)(target));
             return;
             case 23:
-            this.label3 = ((System.Windows.Controls.Label)(target));
+            this.NameLabel = ((System.Windows.Controls.Label)(target));
             return;
             case 24:
-            this.label5 = ((System.Windows.Controls.Label)(target));
+            this.label = ((System.Windows.Controls.Label)(target));
             return;
             case 25:
-            this.menu = ((System.Windows.Controls.Menu)(target));
+            this.label1 = ((System.Windows.Controls.Label)(target));
             return;
             case 26:
-            this.FaceCanvas = ((System.Windows.Controls.Slider)(target));
+            this.label2 = ((System.Windows.Controls.Label)(target));
             return;
             case 27:
-            this.LeftEyeSlider = ((System.Windows.Controls.Slider)(target));
+            this.label3 = ((System.Windows.Controls.Label)(target));
             return;
             case 28:
-            this.RightEyeSlider = ((System.Windows.Controls.Slider)(target));
+            this.label5 = ((System.Windows.Controls.Label)(target));
             return;
             case 29:
-            this.NoseSlider = ((System.Windows.Controls.Slider)(target));
+            this.menu = ((System.Windows.Controls.Menu)(target));
             return;
             case 30:
-            this.MouthSlider = ((System.Windows.Controls.Slider)(target));
+            this.FaceCanvas = ((System.Windows.Controls.Slider)(target));
             return;
             case 31:
-            this.EarsSlider = ((System.Windows.Controls.Slider)(target));
+            this.LeftEyeSlider = ((System.Windows.Controls.Slider)(target));
             return;
             case 32:
+            this.RightEyeSlider = ((System.Windows.Controls.Slider)(target));
+            return;
+            case 33:
+            this.NoseSlider = ((System.Windows.Controls.Slider)(target));
+            return;
+            case 34:
+            this.MouthSlider = ((System.Windows.Controls.Slider)(target));
+            return;
+            case 35:
+            this.EarsSlider = ((System.Windows.Controls.Slider)(target));
+            return;
+            case 36:
             this.menu1 = ((System.Windows.Controls.Menu)(target));
             return;
             }
