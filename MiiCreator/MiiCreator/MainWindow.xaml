@@ -8,7 +8,7 @@
         Title="MiiMaker" Height="350" Width="800" WindowStyle="ThreeDBorderWindow">
     <StackPanel Orientation="Horizontal">
         <Menu x:Name="menu3" Width="216" Height="320" VerticalAlignment="Top">
-            <Button Click="Button_Click" Width="75" Content="Red Ear" Height="46">
+            <Button x:Name="Red_Ear" Click="EarColorRedButton" Width="75" Content="Red Ear" Height="46" BorderBrush="#FFF90000">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -18,7 +18,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button Click="Button_Click_1" Width="75" Content="Blue Ear" Height="46">
+            <Button Click="EarColorBlueButton" Width="75" Content="Blue Ear" Height="46" BorderBrush="#FF00A2FF">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -28,7 +28,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button Click="Button_Click_1" Width="75" Content="Blue Nose" Height="46">
+            <Button Click="BlueNoseButton" Width="75" Content="Blue Nose" Height="46" BorderBrush="#FF00A2FF">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -38,7 +38,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button Click="Button_Click_2" Width="75" Content="White Nose" Height="46">
+            <Button Click="WhiteNoseButton" Width="75" Content="White Nose" Height="46" BorderBrush="White">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -48,7 +48,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button Click="Button_Click_3" Width="75" Content="Green eye" Height="46">
+            <Button Click="GreenEyesButton" Width="75" Content="Green eye" Height="46" BorderBrush="#FF17FF00">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -58,7 +58,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button Click="Button_Click_2" Width="75" Content="White Eye" Height="46">
+            <Button Click="WhiteEyesButton" Width="75" Content="White Eye" Height="46" BorderBrush="White">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -68,7 +68,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button Click="Button_Click" Width="75" Content="Red Head" Height="46">
+            <Button Click="RedHead" Width="75" Content="Red Head" Height="46" BorderBrush="Red">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -78,7 +78,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button Click="Button_Click_1" Width="75" Content="Blue Head" Height="46">
+            <Button Click="BlueHead" Width="75" Content="Blue Head" Height="46" BorderBrush="#FF00A2FF">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -122,8 +122,8 @@
                     </TransformGroup>
                 </Ellipse.RenderTransform>
             </Ellipse>
-            <Ellipse x:Name="LeftEar" Fill="FireBRick" Height="{Binding Value, ElementName=EarsSlider}" Canvas.Top="79" Width="26" Canvas.Left="23"/>
-            <Ellipse x:Name="RightEar" Fill="FireBRick" Height="{Binding Value, ElementName=EarsSlider}" Canvas.Left="198" Canvas.Top="79" Width="32"/>
+            <Ellipse x:Name="LeftEar" Fill="{Binding BorderBrush, ElementName=Red_Ear}" Height="{Binding Value, ElementName=EarsSlider}" Canvas.Top="79" Width="26" Canvas.Left="23"/>
+            <Ellipse x:Name="RightEar" Fill="{Binding BorderBrush, ElementName=Red_Ear}" Height="{Binding Value, ElementName=EarsSlider}" Canvas.Left="198" Canvas.Top="79" Width="29"/>
             <TextBox x:Name="NameBox" Height="23" Canvas.Left="38" TextWrapping="Wrap" Canvas.Top="259" Width="120"/>
             <Label x:Name="NameLabel" Content="Name?" Canvas.Left="38" Canvas.Top="233" RenderTransformOrigin="-0.293,-0.182"/>
         </Canvas>

@@ -25,27 +25,50 @@ namespace MiiCreator
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void EarColorRedButton(object sender, RoutedEventArgs e)
         {
             
             LeftEar.Fill = new SolidColorBrush(Colors.Red);
+            RightEar.Fill = new SolidColorBrush(Colors.Red);
             //LeftEar.Stroke = "FireBrick";
 
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void EarColorBlueButton(object sender, RoutedEventArgs e)
         {
-
+            LeftEar.Fill = new SolidColorBrush(Colors.Blue);
+            RightEar.Fill = new SolidColorBrush(Colors.Blue);
         }
 
-        private void Button_Click_2(object sender, RoutedEventArgs e)
+        private void WhiteNoseButton(object sender, RoutedEventArgs e)
         {
-
+           Nose.Fill = new SolidColorBrush(Colors.White);
         }
 
-        private void Button_Click_3(object sender, RoutedEventArgs e)
+        private void GreenEyesButton(object sender, RoutedEventArgs e)
         {
+            RightEye.Fill = new SolidColorBrush(Colors.Green);
+            LeftEye.Fill = new SolidColorBrush(Colors.Green);
+        }
 
+        private void BlueNoseButton(object sender, RoutedEventArgs e)
+        {
+            Nose.Fill = new SolidColorBrush(Colors.Blue);
+        }
+
+        private void WhiteEyesButton(object sender, RoutedEventArgs e)
+        {
+            RightEye.Fill = new SolidColorBrush(Colors.White);
+            LeftEye.Fill = new SolidColorBrush(Colors.White);
+        }
+        private void RedHead(object sender, RoutedEventArgs e)
+        {
+            Face.Fill = new SolidColorBrush(Colors.Red);
+        }
+
+        private void BlueHead(object sender, RoutedEventArgs e)
+        {
+            Face.Fill = new SolidColorBrush(Colors.Blue);
         }
     }
 }
