@@ -74,6 +74,7 @@ namespace MiiCreator
         private void Rectangle_Mouth_Click(object sender, RoutedEventArgs e)
         {
            //Mouth = Converter<Ellipse, Rectangle>;
+
         }
 
         private void Face_MouseDown(object sender, MouseButtonEventArgs e)

@@ -94,6 +94,15 @@
             <Button x:Name="Rectangle_Ears" Content="Rectangle Ears" VerticalAlignment="Top" Width="166"/>
         </Menu>
         <Canvas Width="300" Background="BurlyWood">
+            <Polygon x:Name="MouthPolygon"
+        		Points="50,100 50,100 90,45 50,10"
+        		Stroke="Purple"
+        		StrokeThickness="2" 
+        		OpacityMask="Red" Canvas.Left="173" Canvas.Top="184" RenderTransformOrigin="0.438,0.499">
+                <Polygon.Fill>
+                    <SolidColorBrush Color="Red" Opacity="1"/>
+                </Polygon.Fill>
+            </Polygon>
             <Ellipse x:Name="Face" Height="{Binding Value, ElementName=FaceCanvas}" Width="177" Canvas.Top="27" Canvas.Left="38" Fill="Firebrick" RenderTransform="{Binding Value, ElementName=FaceCanvas}" MouseDown="Face_MouseDown"/>
             <Ellipse x:Name="LeftEye" Fill="#FFF4F4F5" Height="30" Canvas.Left="{Binding Value, ElementName=LeftEyeSlider}" Stroke="Black" Canvas.Top="90" Width="55" RenderTransformOrigin="0.5,0.5">
                 <Ellipse.RenderTransform>
@@ -126,6 +135,7 @@
                     </TransformGroup>
                 </Ellipse.RenderTransform>
             </Ellipse>
+
             <Ellipse x:Name="LeftEar" Fill="{Binding BorderBrush, ElementName=Red_Ear}" Height="{Binding Value, ElementName=EarsSlider}" Canvas.Top="{Binding Value, ElementName=EarTopSlider}" Width="26" Canvas.Left="23"/>
             <Ellipse x:Name="RightEar" Fill="{Binding BorderBrush, ElementName=Red_Ear}" Height="{Binding Value, ElementName=EarsSlider}" Canvas.Left="198" Canvas.Top="{Binding Value, ElementName=EarTopSlider}" Width="29"/>
             <TextBox x:Name="NameBox" Height="23" Canvas.Left="38" TextWrapping="Wrap" Canvas.Top="259" Width="120"/>
