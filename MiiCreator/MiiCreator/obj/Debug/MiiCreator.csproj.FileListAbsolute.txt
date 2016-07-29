@@ -1,0 +1,28 @@
+c:\users\enegrete\documents\visual studio 2015\Projects\MiiCreator\MiiCreator\bin\Debug\MiiCreator.exe.config
+c:\users\enegrete\documents\visual studio 2015\Projects\MiiCreator\MiiCreator\bin\Debug\MiiCreator.exe
+c:\users\enegrete\documents\visual studio 2015\Projects\MiiCreator\MiiCreator\bin\Debug\MiiCreator.pdb
+c:\users\enegrete\documents\visual studio 2015\Projects\MiiCreator\MiiCreator\obj\Debug\MiiCreator.csprojResolveAssemblyReference.cache
+c:\users\enegrete\documents\visual studio 2015\Projects\MiiCreator\MiiCreator\obj\Debug\MainWindow.g.cs
+c:\users\enegrete\documents\visual studio 2015\Projects\MiiCreator\MiiCreator\obj\Debug\App.g.cs
+c:\users\enegrete\documents\visual studio 2015\Projects\MiiCreator\MiiCreator\obj\Debug\MiiCreator_MarkupCompile.cache
+c:\users\enegrete\documents\visual studio 2015\Projects\MiiCreator\MiiCreator\obj\Debug\MiiCreator_MarkupCompile.lref
+c:\users\enegrete\documents\visual studio 2015\Projects\MiiCreator\MiiCreator\obj\Debug\MainWindow.baml
+c:\users\enegrete\documents\visual studio 2015\Projects\MiiCreator\MiiCreator\obj\Debug\MiiCreator.g.resources
+c:\users\enegrete\documents\visual studio 2015\Projects\MiiCreator\MiiCreator\obj\Debug\MiiCreator.Properties.Resources.resources
+c:\users\enegrete\documents\visual studio 2015\Projects\MiiCreator\MiiCreator\obj\Debug\MiiCreator.csproj.GenerateResource.Cache
+c:\users\enegrete\documents\visual studio 2015\Projects\MiiCreator\MiiCreator\obj\Debug\MiiCreator.exe
+c:\users\enegrete\documents\visual studio 2015\Projects\MiiCreator\MiiCreator\obj\Debug\MiiCreator.pdb
+C:\Users\enegrete\Desktop\Mii Creator\MiiCreator\MiiCreator\bin\Debug\MiiCreator.exe.config
+C:\Users\enegrete\Desktop\Mii Creator\MiiCreator\MiiCreator\obj\Debug\MiiCreator.exe
+C:\Users\enegrete\Desktop\Mii Creator\MiiCreator\MiiCreator\obj\Debug\MiiCreator.pdb
+C:\Users\enegrete\Desktop\Mii Creator\MiiCreator\MiiCreator\obj\Debug\MiiCreator.csprojResolveAssemblyReference.cache
+C:\Users\enegrete\Desktop\Mii Creator\MiiCreator\MiiCreator\obj\Debug\MainWindow.g.cs
+C:\Users\enegrete\Desktop\Mii Creator\MiiCreator\MiiCreator\obj\Debug\App.g.cs
+C:\Users\enegrete\Desktop\Mii Creator\MiiCreator\MiiCreator\obj\Debug\MiiCreator_MarkupCompile.cache
+C:\Users\enegrete\Desktop\Mii Creator\MiiCreator\MiiCreator\obj\Debug\MiiCreator_MarkupCompile.lref
+C:\Users\enegrete\Desktop\Mii Creator\MiiCreator\MiiCreator\bin\Debug\MiiCreator.exe
+C:\Users\enegrete\Desktop\Mii Creator\MiiCreator\MiiCreator\bin\Debug\MiiCreator.pdb
+C:\Users\enegrete\Desktop\Mii Creator\MiiCreator\MiiCreator\obj\Debug\MainWindow.baml
+C:\Users\enegrete\Desktop\Mii Creator\MiiCreator\MiiCreator\obj\Debug\MiiCreator.g.resources
+C:\Users\enegrete\Desktop\Mii Creator\MiiCreator\MiiCreator\obj\Debug\MiiCreator.Properties.Resources.resources
+C:\Users\enegrete\Desktop\Mii Creator\MiiCreator\MiiCreator\obj\Debug\MiiCreator.csproj.GenerateResource.Cache
