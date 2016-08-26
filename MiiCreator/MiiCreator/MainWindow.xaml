@@ -95,10 +95,10 @@
         </Menu>
         <Canvas Width="300" Background="BurlyWood">
             <Polygon x:Name="MouthPolygon"
-        		Points="50,100 50,100 90,45 50,10"
+        		Points="5,90 80,90 80,90 80,10"
         		Stroke="Purple"
         		StrokeThickness="2" 
-        		OpacityMask="Red" Canvas.Left="173" Canvas.Top="184" RenderTransformOrigin="0.438,0.499">
+        		OpacityMask="Red" Canvas.Left="136" Canvas.Top="158" RenderTransformOrigin="0.438,0.499">
                 <Polygon.Fill>
                     <SolidColorBrush Color="Red" Opacity="1"/>
                 </Polygon.Fill>
